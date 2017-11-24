@@ -20,7 +20,9 @@ def find_the_cheese(ingredients)
   # compare that item to a cheese type
     if cheese_types.include?(item)
       index = cheese_types.index(item)
-      return cheese_types[index]
+      cheese_types[index]
+    else
+      nil
     end
   end
 end
