@@ -22,7 +22,7 @@ def find_the_cheese(cheese_list)
 
   i = 0
   cheese_list.each do |cheese|
-      if cheese_types.include?(cheese) 
+      if cheese_types.include?(cheese)
         return cheese_list[i]
       else
         return nil
