@@ -19,7 +19,7 @@ def find_the_cheese(ingredients)
   ingredients.each do |item|
     if cheese_types.include?(item)
       index = cheese_types.index(item)
-      cheese_types[index]
+      return cheese_types[index]
     end
   end
 
